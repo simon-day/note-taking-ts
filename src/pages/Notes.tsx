@@ -28,7 +28,7 @@ const Notes: React.FC = () => {
   };
 
   return (
-    <Container maxWidth="lg">
+    <Container>
       <Grid container spacing={3}>
         {notes.map((note) => (
           <Grid item key={note.id} xs={12} md={6} lg={4}>

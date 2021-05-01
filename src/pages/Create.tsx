@@ -61,7 +61,7 @@ const Create: React.FC = () => {
   };
 
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="lg">
       <Typography
         color="textSecondary"
         variant="h6"
@@ -77,7 +77,6 @@ const Create: React.FC = () => {
           fullWidth
           required
           variant="outlined"
-          id=""
           label="Note Title"
           value={noteTitle}
           onChange={(e) => setNoteTitle(e.target.value)}
@@ -91,7 +90,6 @@ const Create: React.FC = () => {
           variant="outlined"
           multiline
           rows={4}
-          id=""
           label="Details"
           value={noteDetails}
           onChange={(e) => setNoteDetails(e.target.value)}

@@ -17,6 +17,18 @@
       "details": "Bake some break",
       "category": "work",
       "id": 5
+    },
+    {
+      "title": "Testing this note",
+      "details": "lorem fsddsff dsfs jfs jfs fjds fjsfsd f f sdfsd sdfsdfsdfsdfsdf s",
+      "category": "money",
+      "id": 6
+    },
+    {
+      "title": "Last note",
+      "details": "fs sf",
+      "category": "reminders",
+      "id": 7
     }
   ]
 }
