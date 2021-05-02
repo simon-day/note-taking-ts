@@ -76,7 +76,7 @@ const Create: React.FC = () => {
           className={classes.field}
           fullWidth
           required
-          variant="outlined"
+          variant="filled"
           label="Note Title"
           value={noteTitle}
           onChange={(e) => setNoteTitle(e.target.value)}
@@ -87,7 +87,7 @@ const Create: React.FC = () => {
           className={classes.field}
           fullWidth
           required
-          variant="outlined"
+          variant="filled"
           multiline
           rows={4}
           label="Details"

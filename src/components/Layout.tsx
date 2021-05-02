@@ -20,7 +20,6 @@ const DRAWER_WIDTH = 200;
 const useStyles = makeStyles((theme) => {
   return {
     page: {
-      background: "#e1f5fe",
       width: "100%",
       padding: theme.spacing(3),
     },
